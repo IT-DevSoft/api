@@ -1,0 +1,12 @@
+{
+  "development": {
+    "logging": true,
+    "dialect": "postgres",
+    "use_env_variable": "CONNECTION_STRING"
+  },
+  "production": {
+    "logging": false,
+    "dialect": "postgres",
+    "use_env_variable": "CONNECTION_STRING"
+  }
+}
